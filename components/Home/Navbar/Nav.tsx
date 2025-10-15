@@ -67,16 +67,16 @@ const Nav = ({openNav}:props) => {
 
         {/* === Right Buttons === */}
         <div className="flex items-center space-x-4">
-          <button className="bg-gray-100 px-8 py-2.5 rounded-lg hover:bg-gray-300 transition-all duration-200 cursor-pointer sm:text-sm">
-            Login / Register
+          <button className="bg-gray-100 px-8 py-2.5 rounded-lg hover:bg-gray-300 transition-all duration-200 cursor-pointer sm:text-sm ">
+            Login
           </button>
           <button className="bg-cyan-700 text-white px-8 py-2.5 rounded-lg hover:bg-cyan-900 transition-all duration-300 cursor-pointer sm:block">
-            Job Post
+           Job Post
           </button>
 
-          <div className="w-10 h-10 bg-cyan-800 rounded-full flex items-center justify-center">
+          {/* <div className="w-10 h-10 bg-cyan-800 rounded-full flex items-center justify-center">
             <LuNetwork className="w-5 h-5 text-white" />
-          </div>
+          </div> */}
 
           <HiBars3BottomRight className="w-8 h-8 cursor-pointer text-black lg:hidden" onClick={openNav} />
         </div>

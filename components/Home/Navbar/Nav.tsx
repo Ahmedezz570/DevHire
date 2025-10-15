@@ -67,10 +67,10 @@ const Nav = ({openNav}:props) => {
 
         {/* === Right Buttons === */}
         <div className="flex items-center space-x-4">
-          <button className="bg-gray-100 px-8 py-2.5 rounded-lg hover:bg-gray-300 transition-all duration-200 cursor-pointer sm:text-sm ">
+          <button className="bg-gray-100 px-5.5 py-2.5 rounded-lg hover:bg-gray-300 transition-all duration-200 cursor-pointer sm:text-sm ">
             Login
           </button>
-          <button className="bg-cyan-700 text-white px-8 py-2.5 rounded-lg hover:bg-cyan-900 transition-all duration-300 cursor-pointer sm:block">
+          <button className="bg-cyan-700 text-white px-6 py-2.5 rounded-lg hover:bg-cyan-900 transition-all duration-300 cursor-pointer sm:block">
            Job Post
           </button>
 
